@@ -1,3 +1,6 @@
+import DataFetch from '@/component/DataFetch'
+import ImagesUse from '@/component/ImagesUse'
+import ServerComp from '@/component/ServerComp'
 import UseRouter from '@/component/UseRouter'
 import Link from 'next/link'
 import React from 'react'
@@ -6,7 +9,7 @@ export default function page() {
   return (
     <div>
       <h1>Hwllo</h1>
-      <p className='font' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor dolores molestias fugit illo quibusdam ipsam, sit in ab minima voluptatem veniam totam ut asperiores dolore eos reiciendis eligendi praesentium dicta.</p>
+      <p className='' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor dolores molestias fugit illo quibusdam ipsam, sit in ab minima voluptatem veniam totam ut asperiores dolore eos reiciendis eligendi praesentium dicta.</p>
 
       <div className=' my-10 p-10 flex items-center gap-4 ' >
 
@@ -15,6 +18,10 @@ export default function page() {
       <Link href={'/contact'} className='px-2 py-3 bg-green-300' >contact Pages</Link> 
       </div>
       <UseRouter/>
+      <ServerComp/>
+      <ImagesUse/>
+      <DataFetch/>
+
 
 
 
