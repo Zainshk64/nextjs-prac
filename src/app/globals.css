@@ -1,2 +1,5 @@
 @import "tailwindcss";
 
+.font{
+    font-size: 40px;
+}

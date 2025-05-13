@@ -6,7 +6,7 @@ export default function page() {
   return (
     <div>
       <h1>Hwllo</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor dolores molestias fugit illo quibusdam ipsam, sit in ab minima voluptatem veniam totam ut asperiores dolore eos reiciendis eligendi praesentium dicta.</p>
+      <p className='font' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor dolores molestias fugit illo quibusdam ipsam, sit in ab minima voluptatem veniam totam ut asperiores dolore eos reiciendis eligendi praesentium dicta.</p>
 
       <div className=' my-10 p-10 flex items-center gap-4 ' >
 
